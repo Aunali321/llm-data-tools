@@ -1,0 +1,13 @@
+[project]
+name = "llm-data-tools"
+version = "0.1.0"
+description = "Python tools for preparing, converting, and validating datasets for use in Large Language Model (LLM) applications."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.2.3",
+    "tiktoken>=0.7.0",
+    "datasets>=3.0.1",
+    "numpy>=2.1.1",
+    "tqdm>=4.66.5",
+]
